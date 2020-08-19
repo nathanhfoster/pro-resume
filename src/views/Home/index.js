@@ -7,15 +7,9 @@ import "./styles.css";
 
 const Home = ({ prompt, promptToInstall }) => {
   return (
-    <Container fluid className="Home" >
+    <Container className="Home mt-2" >
       <Row>
-        <Col xs={12} className="Center" tag="h2">
-          NATHAN H. FOSTER
-          </Col>
-        <Col className="TitleBreak mb-2" />
-      </Row>
-      <Row>
-        <Col xs={12}>
+        <Col xs={12} className="ResumeContainer">
           <ResumeView />
         </Col>
       </Row>
@@ -33,6 +27,5 @@ Home.defaultProps = {
 };
 
 const mapStateToProps = ({ User }) => ({ User });
-
 
 export default connect(mapStateToProps)(memo(Home));

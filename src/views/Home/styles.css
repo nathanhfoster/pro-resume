@@ -1,6 +1,5 @@
 .Home {
-  margin-top: 20px;
-  color: var(--tertiarycolor);
+ 
 }
 .Home iframe {
   padding: 0;
@@ -10,7 +9,12 @@
   text-align: center;
   margin: 0;
 }
+
 .TitleBreak {
   width: 100%;
   border-top: 4px solid black;
+}
+
+.ResumeContainer {
+  background-color: #efe5d8;
 }

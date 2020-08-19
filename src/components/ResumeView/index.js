@@ -18,6 +18,12 @@ const ResumeView = ({ ExperienceList, EducationList, TechnicalSkillList }) => {
   return (
     <Container fluid className="ResumeView">
       <Row>
+        <Col xs={12} className="Center" tag="h2">
+          NATHAN H. FOSTER
+          </Col>
+        <Col className="TitleBreak mb-2" />
+      </Row>
+      <Row>
         <Col xs={12}>
           <span className="ExperienceTitle">EDUCATION</span>
         </Col>
