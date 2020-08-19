@@ -1,0 +1,23 @@
+:root {
+  --maxHeightWidth: 50px;
+}
+
+.FileUploadContainer {}
+
+.FileUploadContainer small {
+  font-size: 1em;
+}
+
+.FileUploadContainer img {
+  height: var(--maxHeightWidth);
+  width: var(--maxHeightWidth);
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.FileUpload {
+
+  border: none;
+  cursor: pointer;
+  color: var(--secondaryColor);
+}

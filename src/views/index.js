@@ -1,0 +1,5 @@
+export { default as About } from "./About"
+export { default as Home } from "./Home"
+export { default as PageNotFound } from "./PageNotFound"
+export { default as PrivacyPolicy } from "./PrivacyPolicy"
+export { default as Support } from "./Support"
