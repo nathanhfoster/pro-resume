@@ -5,17 +5,14 @@ import { Container, Row, Col } from "reactstrap";
 import { ResumeView } from "../../components";
 import "./styles.css";
 
-
-
-const Home = ({ }) => {
-
+const Home = ({ prompt, promptToInstall }) => {
   return (
     <Container fluid className="Home" >
       <Row>
         <Col xs={12} className="Center" tag="h2">
           NATHAN H. FOSTER
           </Col>
-        <Col className="TitleBreak" />
+        <Col className="TitleBreak mb-2" />
       </Row>
       <Row>
         <Col xs={12}>
